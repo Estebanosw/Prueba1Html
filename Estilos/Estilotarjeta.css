@@ -1,0 +1,63 @@
+body{
+    background-color: beige; /*Aplica Color al fondo*/
+    margin: 0; /*Elimina la margen que viene determinado*/
+    padding: 0; /* Eliminar los espacios que vienen por defecto */
+}
+
+.container{
+    display: flex; /*Organiza los hijos de forma flexible*/
+    flex-direction: column; /*Alinea los elementos en columnas*/
+    align-items: center; /*Centra los articulos*/
+    gap: 20px; /*Espacio entre los articulos*/
+}
+
+section article{
+    transition: box-shadow 0.3s ease; /*Aplica una transicion suave de 0.3 seg*/
+    background-color: #fff; /*Establece color blanco*/
+    margin: 16px 0; /*Se añade una margen vertical de 16 px*/
+    border-radius: 8px; /*Redondea las esquinas del article*/
+    padding: 4px 0; /*Espacio*/
+    cursor:pointer; /*Cambia el estilo del cursor*/
+}
+
+section article:hover{
+    box-shadow: 0 1.6px 6.4px rgba(27, 27, 26, 0.3);
+}
+
+section article h2, section article p{
+    margin: 16px;
+}
+
+footer{
+    background-color: black;
+    padding: 48px;
+    color: white;
+}
+
+footer section{
+    float: right;
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: brown;
+}
+
+header{
+    background-color: black;
+    padding: 1px;
+}
+
+header h1{
+    color: #fff;
+}
+
+header a{
+    color: #fff;
+}
