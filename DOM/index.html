@@ -25,12 +25,29 @@
         <p id="p3">Parrafo 3</p>
     </section>
 
-    <section>
-        <ul>
+    <section class="editores">
+        <ul class="listaEditores">
             <li class="listas">Visual Studio</li>
             <li class="listas">Intellij</li>
             <li class="listas">Andorid Studio</li>
         </ul>
+    </section>
+
+    <section>
+        <p id="resultado">Fecha</p>
+
+        <button onmousedown="verFecha()" onmouseup="quitarFecha()">Ver fecha</button>
+    </section>
+
+    <section>
+        <label for="dato1">Conversion de Temperaturas</label>
+        <input type="text" name ="dato1", id="dato1">
+        <br><br>
+
+        <p id="res">Resultado: </p>
+
+        <button onclick="temperatura()">Calcular</button>
+        
     </section>
 
     <section>
